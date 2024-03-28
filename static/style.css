@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap); /* подключение шрифта из  гугла fonts*/
+
+
+body{
+    background: linear-gradient(45deg, #0b6fda 17%, #ce1c1c 84%);
+    font-family: Libre Baskerville, serif;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(112, 112, 112);
+}
+
+.navbar-brand img {
+    width: 65px;
+}
+
+.navbar-toggler {
+    background-color: grey;
+    color: grey;
+}
+
+.card img {
+    height: 650px;
+}
+
+.sidebar {
+    color: rgba(246, 252, 199, 0.993);
+}
+
+.card {
+    background: linear-gradient(45deg, #0b6fda 17%, #ce1c1c 84%);
+    color:  rgba(246, 252, 199, 0.993) !important;
+    border-color:  black;
+}   
+
+.card .btn {
+    background-color: #005cbe;
+    color:  rgba(246, 252, 199, 0.993) !important
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 810px;
+}
+
+.footer-text{
+    color: white;
+    margin-left: 500px;
+}
+
